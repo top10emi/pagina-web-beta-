@@ -1,0 +1,73 @@
+h2{
+    color: brown;
+    background-color: rgb(229, 152, 102);
+    padding-left: 900px;
+    
+}
+
+
+.header *{
+    border: solid;
+    background-color: rgb(182, 166, 154);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(167, 136, 101);
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(255, 217, 161);
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(170, 255, 206);
+}
+
+body{
+    background-color: rgb(77, 71, 97);
+}
+
+a:link{
+    color: linen;
+}
+
+a:visited{
+    color-scheme: rgb(179, 255, 179);
+}
+
+.menu{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.item{
+    position: relative;
+    
+}
+
+.item p{
+    
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
